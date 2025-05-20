@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+/* src/index.css */
+.hide-scrollbar {
+    /* For Firefox */
+    scrollbar-width: none;
+    /* For Chrome, Safari, and Edge */
+    -ms-overflow-style: none;
+    /* Internet Explorer and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, and Edge */
+}
